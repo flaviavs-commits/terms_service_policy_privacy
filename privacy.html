@@ -1,103 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="tiktok-developers-site-verification" content="dI1934gmRZHhCpc7cDusuI368kBMnV8o" />
-  <title>Política de Privacidade</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <title>Privacy Policy</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg: #F7F6F3; --surface: #FFFFFF; --ink: #1A1A1A;
-      --muted: #6B6B6B; --accent: #2D5BE3; --border: #E2E0DB;
-    }
-    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.75; }
-    nav {
-      position: sticky; top: 0; z-index: 100;
-      background: var(--surface); border-bottom: 1px solid var(--border);
-      height: 60px; display: flex; align-items: center; padding: 0 2rem; gap: 2rem;
-    }
-    nav a { text-decoration: none; font-size: 0.875rem; font-weight: 500; color: var(--muted); transition: color .2s; }
-    nav a:hover, nav a.active { color: var(--accent); }
-    nav a.active { border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
-    .wrapper { max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
-    .doc-header { padding-bottom: 2rem; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
-    .doc-header .label { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: .75rem; }
-    .doc-header h1 { font-family: 'Sora', sans-serif; font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; line-height: 1.2; margin-bottom: .75rem; }
-    .doc-header .meta { font-size: 0.85rem; color: var(--muted); }
-    .doc-body h2 { font-family: 'Sora', sans-serif; font-size: 1.125rem; font-weight: 600; margin-top: 2.5rem; margin-bottom: .75rem; }
-    .doc-body p { color: #3A3A3A; margin-bottom: 1rem; }
-    .doc-body ul { padding-left: 1.5rem; margin-bottom: 1rem; color: #3A3A3A; }
-    .doc-body ul li { margin-bottom: .4rem; }
-    .doc-body a { color: var(--accent); }
-    .section-number { display: inline-block; width: 1.6rem; height: 1.6rem; background: var(--accent); color: #fff; border-radius: 4px; font-size: 0.7rem; font-weight: 700; text-align: center; line-height: 1.6rem; margin-right: .5rem; vertical-align: middle; }
-    .highlight { background: #EEF3FD; border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 0.9rem; color: #2a2a2a; }
-    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; text-align: center; font-size: 0.8rem; color: var(--muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f5f0; color: #222; }
+    nav { background: #fff; border-bottom: 1px solid #ddd; padding: 16px 40px; display: flex; gap: 32px; }
+    nav a { text-decoration: none; color: #555; font-size: 15px; padding-bottom: 4px; }
+    nav a.active { color: #1a73e8; border-bottom: 2px solid #1a73e8; font-weight: 600; }
+    .container { max-width: 780px; margin: 60px auto; padding: 0 24px 80px; }
+    .label { color: #1a73e8; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: 40px; font-weight: 800; color: #111; margin-bottom: 8px; }
+    .date { color: #888; font-size: 14px; margin-bottom: 32px; }
+    hr { border: none; border-top: 1px solid #ddd; margin-bottom: 32px; }
+    .highlight { background: #eef3fd; border-left: 4px solid #1a73e8; padding: 16px 20px; border-radius: 4px; margin-bottom: 32px; font-size: 15px; line-height: 1.7; color: #333; }
+    p { font-size: 16px; line-height: 1.7; color: #444; margin-bottom: 20px; }
+    .section { margin-bottom: 36px; }
+    .section-title { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .badge { background: #1a73e8; color: #fff; font-size: 13px; font-weight: 700; border-radius: 6px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    h2 { font-size: 20px; font-weight: 700; color: #111; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    ul li { font-size: 16px; line-height: 1.7; color: #444; margin-bottom: 8px; }
+    ul li strong { color: #222; }
+    a { color: #1a73e8; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html" class="active">Privacy Policy</a>
+  </nav>
+  <div class="container">
+    <div class="label">Legal Document</div>
+    <h1>Privacy Policy</h1>
+    <div class="date">Last updated: June 2025</div>
+    <hr/>
 
-<nav>
-  <a href="terms.html">Termos de Serviço</a>
-  <a href="privacy.html" class="active">Política de Privacidade</a>
-</nav>
-
-<div class="wrapper">
-  <header class="doc-header">
-    <span class="label">Documento Legal</span>
-    <h1>Política de Privacidade</h1>
-    <p class="meta">Última atualização: junho de 2025</p>
-  </header>
-
-  <div class="doc-body">
     <div class="highlight">
-      Sua privacidade é importante para nós. Esta política explica quais dados coletamos, como os usamos e quais são seus direitos — em conformidade com a <strong>LGPD (Lei nº 13.709/2018)</strong>.
+      Your privacy is important to us. This policy explains what data we collect, how we use it, and your rights — in compliance with applicable privacy laws including the LGPD (Brazilian Federal Law No. 13.709/2018) and GDPR where applicable.
     </div>
 
-    <h2><span class="section-number">1</span> Dados que Coletamos</h2>
-    <p>Podemos coletar as seguintes categorias de dados:</p>
-    <ul>
-      <li><strong>Dados de cadastro:</strong> nome e e-mail;</li>
-      <li><strong>Dados de uso:</strong> páginas visitadas, cliques, tempo de sessão;</li>
-      <li><strong>Dados técnicos:</strong> endereço IP, tipo de navegador, sistema operacional.</li>
-    </ul>
+    <div class="section">
+      <div class="section-title"><div class="badge">1</div><h2>Data We Collect</h2></div>
+      <p>We may collect the following categories of data:</p>
+      <ul>
+        <li><strong>Registration data:</strong> name and email address;</li>
+        <li><strong>Usage data:</strong> pages visited, clicks, session duration;</li>
+        <li><strong>Technical data:</strong> IP address, browser type, operating system;</li>
+        <li><strong>TikTok account data:</strong> user ID, display name, profile picture, follower count, engagement statistics, and published video list — obtained via the TikTok API with your explicit authorization.</li>
+      </ul>
+    </div>
 
-    <h2><span class="section-number">2</span> Como Usamos Seus Dados</h2>
-    <p>Utilizamos seus dados para:</p>
-    <ul>
-      <li>Fornecer e melhorar nossos serviços;</li>
-      <li>Responder a solicitações de suporte;</li>
-      <li>Cumprir obrigações legais;</li>
-      <li>Prevenir fraudes e garantir a segurança.</li>
-    </ul>
+    <div class="section">
+      <div class="section-title"><div class="badge">2</div><h2>TikTok Data Usage</h2></div>
+      <p>We access your TikTok data exclusively through TikTok's official API, after you grant permission via TikTok Login Kit. The data we access and how we use it:</p>
+      <ul>
+        <li><strong>user.info.basic</strong> — User ID and display name, used to identify your connected account within our platform;</li>
+        <li><strong>user.info.profile</strong> — Profile picture and bio, displayed so you can confirm which account is linked;</li>
+        <li><strong>user.info.stats</strong> — Follower and engagement metrics, used to power your analytics dashboard;</li>
+        <li><strong>video.list</strong> — Your published videos, used to display content history and performance data;</li>
+        <li><strong>video.publish</strong> — Used to publish scheduled videos to TikTok on your behalf;</li>
+        <li><strong>video.upload</strong> — Used to upload video files as part of the automated publishing workflow.</li>
+      </ul>
+      <p>We do not sell, rent, or share your TikTok data with third parties for advertising or any other purpose beyond the functionality described in this policy.</p>
+    </div>
 
-    <h2><span class="section-number">3</span> Compartilhamento de Dados</h2>
-    <p>Não vendemos seus dados. Podemos compartilhá-los apenas com provedores de serviços essenciais (hospedagem, analytics) ou quando exigido por lei.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">3</div><h2>How We Use Your Data</h2></div>
+      <p>We use your data to:</p>
+      <ul>
+        <li>Provide and improve our automation services;</li>
+        <li>Authenticate your account and connect to TikTok on your behalf;</li>
+        <li>Schedule and publish content as directed by you;</li>
+        <li>Display performance analytics and content history;</li>
+        <li>Send real-time notifications about publishing status via Webhooks;</li>
+        <li>Comply with legal obligations.</li>
+      </ul>
+    </div>
 
-    <h2><span class="section-number">4</span> Cookies</h2>
-    <p>Utilizamos cookies para autenticação e análise de desempenho. Você pode desativá-los nas configurações do seu navegador, embora isso possa afetar algumas funcionalidades.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">4</div><h2>Data Retention</h2></div>
+      <p>We retain your data only for as long as necessary to provide our services or as required by law. You may request deletion of your account and associated data at any time by contacting us through our support channel.</p>
+      <p>Upon disconnecting your TikTok account from our platform, we will delete or anonymize all TikTok-specific data retrieved via the API within 30 days.</p>
+    </div>
 
-    <h2><span class="section-number">5</span> Seus Direitos (LGPD, art. 18)</h2>
-    <p>Você tem direito a:</p>
-    <ul>
-      <li>Acessar e corrigir seus dados;</li>
-      <li>Solicitar a exclusão ou anonimização;</li>
-      <li>Revogar o consentimento a qualquer momento;</li>
-      <li>Solicitar portabilidade para outro serviço.</li>
-    </ul>
+    <div class="section">
+      <div class="section-title"><div class="badge">5</div><h2>Data Sharing</h2></div>
+      <p>We do not sell or share your personal data with third parties, except:</p>
+      <ul>
+        <li>With service providers who assist in operating our platform (e.g., hosting, analytics), under strict confidentiality agreements;</li>
+        <li>When required by law or legal process;</li>
+        <li>With your explicit consent.</li>
+      </ul>
+    </div>
 
-    <h2><span class="section-number">6</span> Alterações nesta Política</h2>
-    <p>Podemos atualizar esta Política periodicamente. A data de "última atualização" no topo indica a versão vigente.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">6</div><h2>Security</h2></div>
+      <p>We implement industry-standard security measures to protect your data, including encryption in transit (HTTPS) and access controls. However, no method of transmission over the internet is 100% secure.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><div class="badge">7</div><h2>Your Rights</h2></div>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access the personal data we hold about you;</li>
+        <li>Request correction of inaccurate data;</li>
+        <li>Request deletion of your data;</li>
+        <li>Withdraw consent at any time by disconnecting your TikTok account;</li>
+        <li>Lodge a complaint with the relevant data protection authority.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><div class="badge">8</div><h2>Changes to This Policy</h2></div>
+      <p>We may update this Privacy Policy periodically. We will notify users of significant changes. Continued use of our services after updates constitutes acceptance of the revised policy.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><div class="badge">9</div><h2>Contact</h2></div>
+      <p>If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us through our platform's support channel.</p>
+    </div>
   </div>
-</div>
-
-<footer>
-  <a href="terms.html">Termos de Serviço</a> &nbsp;·&nbsp;
-  <a href="privacy.html">Política de Privacidade</a>
-</footer>
-
 </body>
 </html>

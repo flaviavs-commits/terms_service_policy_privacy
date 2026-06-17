@@ -1,87 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="tiktok-developers-site-verification" content="8mijjv38HeUEKCkASNxOvtpXWdhHcWFr" />
-  <title>Termos de Serviço</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <title>Terms of Service</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg: #F7F6F3; --surface: #FFFFFF; --ink: #1A1A1A;
-      --muted: #6B6B6B; --accent: #2D5BE3; --border: #E2E0DB;
-    }
-    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.75; }
-    nav {
-      position: sticky; top: 0; z-index: 100;
-      background: var(--surface); border-bottom: 1px solid var(--border);
-      height: 60px; display: flex; align-items: center; padding: 0 2rem; gap: 2rem;
-    }
-    nav a { text-decoration: none; font-size: 0.875rem; font-weight: 500; color: var(--muted); transition: color .2s; }
-    nav a:hover, nav a.active { color: var(--accent); }
-    nav a.active { border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
-    .wrapper { max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
-    .doc-header { padding-bottom: 2rem; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
-    .doc-header .label { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: .75rem; }
-    .doc-header h1 { font-family: 'Sora', sans-serif; font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; line-height: 1.2; margin-bottom: .75rem; }
-    .doc-header .meta { font-size: 0.85rem; color: var(--muted); }
-    .doc-body h2 { font-family: 'Sora', sans-serif; font-size: 1.125rem; font-weight: 600; margin-top: 2.5rem; margin-bottom: .75rem; }
-    .doc-body p { color: #3A3A3A; margin-bottom: 1rem; }
-    .doc-body ul { padding-left: 1.5rem; margin-bottom: 1rem; color: #3A3A3A; }
-    .doc-body ul li { margin-bottom: .4rem; }
-    .doc-body a { color: var(--accent); }
-    .section-number { display: inline-block; width: 1.6rem; height: 1.6rem; background: var(--accent); color: #fff; border-radius: 4px; font-size: 0.7rem; font-weight: 700; text-align: center; line-height: 1.6rem; margin-right: .5rem; vertical-align: middle; }
-    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; text-align: center; font-size: 0.8rem; color: var(--muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f5f0; color: #222; }
+    nav { background: #fff; border-bottom: 1px solid #ddd; padding: 16px 40px; display: flex; gap: 32px; }
+    nav a { text-decoration: none; color: #555; font-size: 15px; padding-bottom: 4px; }
+    nav a.active { color: #1a73e8; border-bottom: 2px solid #1a73e8; font-weight: 600; }
+    .container { max-width: 780px; margin: 60px auto; padding: 0 24px 80px; }
+    .label { color: #1a73e8; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: 40px; font-weight: 800; color: #111; margin-bottom: 8px; }
+    .date { color: #888; font-size: 14px; margin-bottom: 32px; }
+    hr { border: none; border-top: 1px solid #ddd; margin-bottom: 32px; }
+    p { font-size: 16px; line-height: 1.7; color: #444; margin-bottom: 20px; }
+    .section { margin-bottom: 36px; }
+    .section-title { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .badge { background: #1a73e8; color: #fff; font-size: 13px; font-weight: 700; border-radius: 6px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    h2 { font-size: 20px; font-weight: 700; color: #111; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    ul li { font-size: 16px; line-height: 1.7; color: #444; margin-bottom: 8px; }
+    a { color: #1a73e8; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="terms.html" class="active">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+  <div class="container">
+    <div class="label">Legal Document</div>
+    <h1>Terms of Service</h1>
+    <div class="date">Last updated: June 2025</div>
+    <hr/>
 
-<nav>
-  <a href="terms.html" class="active">Termos de Serviço</a>
-  <a href="privacy.html">Política de Privacidade</a>
-</nav>
+    <p>By accessing or using our services, you agree to the terms described in this document. Please read carefully before continuing.</p>
 
-<div class="wrapper">
-  <header class="doc-header">
-    <span class="label">Documento Legal</span>
-    <h1>Termos de Serviço</h1>
-    <p class="meta">Última atualização: junho de 2025</p>
-  </header>
+    <div class="section">
+      <div class="section-title"><div class="badge">1</div><h2>Acceptance of Terms</h2></div>
+      <p>By accessing or using any part of our services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our <a href="privacy.html">Privacy Policy</a>.</p>
+      <p>If you do not agree with any part of these terms, please do not use our services.</p>
+    </div>
 
-  <div class="doc-body">
-    <p>Ao acessar ou usar nossos serviços, você concorda com os termos descritos neste documento. Leia com atenção antes de continuar.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">2</div><h2>Description of Service</h2></div>
+      <p>We provide a social media automation platform that allows users to connect their TikTok accounts to schedule, publish, and manage video content, as well as monitor performance analytics — all from a single dashboard.</p>
+      <p>Our platform uses the TikTok API and related services, including Login Kit, Content Posting API, Share Kit, Data Portability API, and Webhooks, in accordance with <a href="https://developers.tiktok.com/doc/app-review-guidelines" target="_blank">TikTok's Developer Terms and Platform Policies</a>.</p>
+    </div>
 
-    <h2><span class="section-number">1</span> Aceitação dos Termos</h2>
-    <p>Ao acessar ou utilizar qualquer parte de nossos serviços, você declara que leu, entendeu e concorda em ficar vinculado a estes Termos de Serviço e à nossa <a href="privacy.html">Política de Privacidade</a>.</p>
-    <p>Se você não concordar com qualquer parte destes termos, não use nossos serviços.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">3</div><h2>Acceptable Use</h2></div>
+      <p>You agree not to use our services to:</p>
+      <ul>
+        <li>Violate any applicable laws or regulations;</li>
+        <li>Distribute spam, malware, or harmful content;</li>
+        <li>Infringe upon intellectual property rights;</li>
+        <li>Engage in unauthorized data collection or scraping;</li>
+        <li>Circumvent TikTok's platform policies or terms of service;</li>
+        <li>Impersonate any person or entity.</li>
+      </ul>
+    </div>
 
-    <h2><span class="section-number">2</span> Uso Aceitável</h2>
-    <p>Você concorda em não usar nossos serviços para:</p>
-    <ul>
-      <li>Violar leis ou regulamentos aplicáveis;</li>
-      <li>Distribuir spam, malware ou conteúdo prejudicial;</li>
-      <li>Infringir direitos de propriedade intelectual de terceiros;</li>
-      <li>Coletar dados de outros usuários sem consentimento.</li>
-    </ul>
+    <div class="section">
+      <div class="section-title"><div class="badge">4</div><h2>TikTok Integration</h2></div>
+      <p>Our platform integrates with TikTok through its official API. By connecting your TikTok account, you authorize us to act on your behalf to publish content, retrieve account data, and receive status notifications — solely as directed by you.</p>
+      <p>We do not sell, share, or use your TikTok data for any purpose beyond the functionality explicitly described in this application and our Privacy Policy.</p>
+    </div>
 
-    <h2><span class="section-number">3</span> Propriedade Intelectual</h2>
-    <p>Todo o conteúdo, design e código de nossos serviços é de nossa propriedade ou licenciado para nós. Você não pode copiar, modificar ou distribuir qualquer parte sem autorização prévia por escrito.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">5</div><h2>User Responsibilities</h2></div>
+      <p>You are solely responsible for all content published through our platform. You must ensure that any content you schedule or publish complies with TikTok's Community Guidelines and applicable laws.</p>
+    </div>
 
-    <h2><span class="section-number">4</span> Limitação de Responsabilidade</h2>
-    <p>Na máxima extensão permitida por lei, não nos responsabilizamos por danos indiretos, incidentais, especiais ou consequentes decorrentes do uso ou da impossibilidade de uso dos nossos serviços.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">6</div><h2>Limitation of Liability</h2></div>
+      <p>To the fullest extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services or from any interruption or unavailability of TikTok's API.</p>
+    </div>
 
-    <h2><span class="section-number">5</span> Alterações nos Termos</h2>
-    <p>Podemos atualizar estes Termos periodicamente. O uso continuado após as alterações constitui aceitação dos novos Termos.</p>
+    <div class="section">
+      <div class="section-title"><div class="badge">7</div><h2>Termination</h2></div>
+      <p>We reserve the right to suspend or terminate access to our services at any time if you violate these Terms of Service or TikTok's platform policies.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><div class="badge">8</div><h2>Changes to Terms</h2></div>
+      <p>We may update these terms at any time. Continued use of our services after changes are posted constitutes your acceptance of the revised terms.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><div class="badge">9</div><h2>Contact</h2></div>
+      <p>If you have any questions about these Terms of Service, please contact us through our platform's support channel.</p>
+    </div>
   </div>
-</div>
-
-<footer>
-  <a href="terms.html">Termos de Serviço</a> &nbsp;·&nbsp;
-  <a href="privacy.html">Política de Privacidade</a>
-</footer>
-
 </body>
 </html>
